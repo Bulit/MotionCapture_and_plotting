@@ -1,6 +1,3 @@
-from turtle import left
-
-from numpy import source
 from capture import df
 from bokeh.plotting import figure, show, output_file
 from bokeh.models import HoverTool, ColumnDataSource
