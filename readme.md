@@ -2,7 +2,6 @@
 
 ## Run with main.py
 
-Currently app let you set up your camera as motion detector that save motion to CSV file and create html graph to visualize motion in time with begining and end times. You can start this app on raspberryPi server with connected webcam to record moton.
+App let you set up your camera as motion detector that save motion start and end to CSV file and create html graph to visualize it in time. In addition to that every movement that occur on your cam will be recorded from the moment of traspasing camera sight. Every movement are saved on new *.avi file. You can start this app on raspberryPi server with connected webcam to record motion in places like home, garden, office and even your parking spot.
 
-TODO:
-- add motion recording
+Be warry that leaving app on work for long time, may generate many avi file, so you need some disk space.

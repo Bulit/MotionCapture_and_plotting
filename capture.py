@@ -87,9 +87,9 @@ while True:
 
     # adding Gray, Delta, Treshold and Color frame for learning purpose only,
     # can delete all except one and it will still work
-    # cv2.imshow("Gray Frame", gray)
-    # cv2.imshow("Delta Frame", delta_frame)
-    # cv2.imshow("Treshold Frame", tresh_frame)
+    cv2.imshow("Gray Frame", gray)
+    cv2.imshow("Delta Frame", delta_frame)
+    cv2.imshow("Treshold Frame", tresh_frame)
     cv2.imshow("Color Frame", frame)
 
     key = cv2.waitKey(1)
